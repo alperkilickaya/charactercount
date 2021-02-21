@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic);
+*, *:before, *:after { box-sizing: border-box; }
+html { font-size: 100%;  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #d0e6ef;
+    color: #666;
+}
+
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+}
+
+
+h1 {
+    color: #555;
+    margin: 3rem 0 1rem 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #666;
+    box-shadow: inset 0 0 0.25rem #ddd;
+
+}
+
+#the-count {
+    float: right;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+}
+
+.ikaz {
+    display: none;
+}
+
+#alper {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+    background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+    background-color:#fc8d83;
+    border-radius:6px;
+    border:1px solid #d83526;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+    background-color:#e4685d;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}

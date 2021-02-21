@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Karakter Sayıcı</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>SMS Yazım Alanı</h1>
+    <textarea name="the-textarea" id="the-textarea"  placeholder="Yazmaya başlayın..." onkeyup="sayac();" autofocus></textarea>
+    <p class="ikaz" id="alper">155 Karakteri Geçtiniz</p>
+    <div id="the-count">
+        <span id="current">0</span>
+        <span id="maximum">/ 300</span>
+    </div>
+    <button onclick="gonder()" class="myButton">Gönder</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
