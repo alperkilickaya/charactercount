@@ -28,5 +28,5 @@ function gonder() {
     html: "Toplam " + "<b>" + mesaj_sayi + " MESAJ" + "</b>" + " gönderilecek?",
     icon: "warning",
     confirmButtonText: "Tamam",
-  });
+  }).then(() => window.location.reload());
 }
